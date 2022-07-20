@@ -1,0 +1,121 @@
+.heading {
+  text-align: center;
+}
+.ul {
+  list-style: none;
+  border: 1px solid black;
+  padding: 0 auto;
+  border-radius: 5px;
+  /* margin: 2% 2% 2% 25%; */
+  padding: 1rem 3%;
+  width: 50%;
+  background-color: white;
+}
+
+.li {
+  background-color: white;
+  text-align: left;
+  display: block;
+}
+.background {
+  background-color: rgb(109, 226, 237);
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.del {
+  background-color: rgb(212, 53, 53);
+  border: solid rgb(212, 53, 53);
+  color: white;
+  border-radius: 8px;
+  margin: 1% auto;
+}
+
+.body {
+  position: relative;
+  top: 1rem;
+  width: 100%;
+}
+
+.Card {
+  width: 60%;
+  margin: 20px;
+  padding: 10px;
+  background: 
+  url("https://images.unsplash.com/photo-1518655048521-f130df041f66?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwcm9maWxlLXBhZ2V8Mnx8fGVufDB8fHx8&w=1000&q=80");
+}
+
+.newComplaint {
+  position: relative;
+  left: 20%;
+  margin-top: 2rem;
+}
+
+.newComplaintForm label {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  width: 50%;
+}
+
+.newComplaintForm input {
+  border-radius: 0.5rem;
+  width: 50%;
+}
+
+@media (max-width: 500px) {
+  .newComplaintForm {
+    width: 100%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .ul {
+    width: 80%;
+    margin: 2rem auto;
+  }
+}
+@media (max-width: 600px) {
+  .Card {
+    width: 80%;
+  }
+}
+
+@media (max-width: 400px) {
+  .newComplaintForm label {
+    width: 100%;
+  }
+
+  .newComplaintForm input {
+    width: 100%;
+  }
+}
+.button {
+  margin-top: 10px;
+  cursor: pointer;
+    background-color: rgb(231, 58, 58);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.sbutton{
+  cursor: pointer;
+    background-color: rgb(101, 199, 129);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-align: center;
+}
+.input{
+    padding: 10px;
+    outline: 2px solid black;
+    background-color: white;
+    border: black;
+    border-radius: 10px;
+}
